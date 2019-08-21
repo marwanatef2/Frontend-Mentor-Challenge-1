@@ -1,7 +1,10 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
 .container{
   background-image: url("images/bg-hero-desktop.svg");
   background-color: hsl(193, 100%, 96%);
-  font-family: 'Poppins', sans-serif;
 }
 
 /* .innercontainer{
@@ -50,9 +53,38 @@
   width: 120px;
   border-radius: 25px;
   box-shadow: lightgrey 1px 3px;
-  margin: 30px 60px;
+  margin: 25px 60px;
 }
 
 .textcontainer p{
   margin-bottom: 30px;
+}
+
+.smallcontainer{
+  width: 80%;
+  margin: 40px auto;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  box-shadow: lightgrey 1px 3px;
+  padding: 20px 50px;
+  font: 130%;
+}
+
+.smallcontainer img{
+  width: 30%;
+}
+
+.smallcontainer div{
+  width: 60%;
+  margin-top: 50px
+}
+.smallcontainer p{
+  width: 80%;
+  /* color: grey; */
+}
+.lefttext{
+  float: left;
+}
+.righttext{
+  float: right;
 }
